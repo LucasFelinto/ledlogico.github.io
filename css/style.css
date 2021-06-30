@@ -1,0 +1,173 @@
+/* fonts */ 
+@font-face {
+    font-family: 'Logo';
+    src: url(../fonts/PaulistanaMaraba-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Alfa';
+    src: url(../fonts/AlfaSlabOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Cubano';
+    src: url(../fonts/Cubano-Regular.otf);
+}
+
+/* font */
+@font-face {
+    font-family: 'Fira Sans Condensed Medium Italic';
+    src: url(../fonts/FiraSansCondensed-MediumItalic.otf);
+}
+
+@font-face {
+    font-family: 'Fira Sans Condensed-Ultra Light Italic';
+    src: url(../fonts/FiraSansCondensed-UltraLightItalic.otf);
+}
+
+@font-face {
+    font-family: 'FiraSans Condensed Bold';
+    src: url(../fonts/FiraSansCondensed-Bold.otf);
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Container */
+.contaier {
+    display: flex;
+    flex-direction: column;
+}
+
+/* home */
+.home {
+    height: 100vh;
+    background-color: #F8F5F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.btn {
+    width: 230px;
+    border: solid 5px #2D8BC8;
+    padding: 10px 15px;
+    font-family: 'Alfa';
+    font-size: 1.3em;
+    text-align: center;
+    color: #2D8BC8;
+    margin-top: 80px;
+    transition: 500ms;
+    letter-spacing: 8px;
+    /* background-color: #2D; */
+}
+
+.btn:hover {
+    border: solid 5px #E01860;
+    color: #E01860;
+    transition: 500ms;
+}
+
+/* game */
+.game-bg {
+    background-image: url(../img/bg-game2.png);
+    /* background-color: #EDC040; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.container-game {
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menus {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-menu {
+    width: 200px;
+    height: 65px;
+    padding: 20px 10px;
+    background-color: #fff;
+    color: #22A2E1;
+    border-radius: 1000px;
+    text-align: center;
+    font-family: 'Cubano';
+    font-size: 1.25em;
+    transition: 500ms;
+}
+
+.menus a {
+    margin: 10px 0;
+}
+
+.btn-menu:hover {
+    background-color: #22A2E1;
+    color: white;
+    transition: 500ms;
+}
+
+
+/* sobre */
+.sobre {
+    height: 100vh;
+    background-color: #DF4F47;  
+}
+
+.container-sobre {
+    width: 800px;
+    height: 100vh;
+    margin: 0 auto;
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.equipe {
+    display: flex;
+    justify-content: center;
+}
+
+
+.pessoas {
+    width: 194px;
+    height: 212px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    font-family: 'Fira Sans Condensed Medium Italic';
+    font-size: 1.25em;
+    margin-top: 20px;
+    color: white;
+}
+
+.email {
+    font-family: 'Fira Sans Condensed-Ultra Light Italic';
+    font-size: 1em;
+    margin-top: 10px;
+    color: white;
+}
